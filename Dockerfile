@@ -6,3 +6,4 @@ run apt install python -y
 run apt install vim -y
 run apt install net-tools
 run apt install docker.io -y
+copy http://github.com/cubensquare/ansible/apache.yaml
