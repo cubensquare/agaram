@@ -7,3 +7,4 @@ run apt install vim -y
 run apt install net-tools
 run apt install docker.io -y
 Expose 80
+cmd ['/bin/sh' , './apache.sh']
