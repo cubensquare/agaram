@@ -1,3 +1,4 @@
 from nginx
 add index.html /usr/share
-cmd ('/bin/sh' /test.py')
+entrypoint ["/bin/sh","-c"]
+cmd ["python","./test.py"]
