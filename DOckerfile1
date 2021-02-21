@@ -1,4 +1,4 @@
 from nginx
 add index.html /usr/share
-entrypoint ["/bin/sh","-c"]
+copy https://github.com/mgsgoms/Docker-project/Jenkinsfile
 cmd ('/bin/sh' /test.py')
