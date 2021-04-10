@@ -1,0 +1,4 @@
+apiVewrsion: v1
+kind: Pod
+metadata:
+   name: test
